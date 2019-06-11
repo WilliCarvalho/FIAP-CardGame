@@ -60,9 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\ApplicationController.cs" />
-    <Compile Include="Assets\Script\MenuController.cs" />
-    <Compile Include="Assets\Script\OptionsMenuController.cs" />
+    <Compile Include="Assets\Script\Core\ApplicationController.cs" />
+    <Compile Include="Assets\Script\Core\GamePlay\GameController.cs" />
+    <Compile Include="Assets\Script\Core\GamePlay\LifeBase.cs" />
+    <Compile Include="Assets\Script\Core\GamePlay\PlayerController.cs" />
+    <Compile Include="Assets\Script\Menus\GameMenuController.cs" />
+    <Compile Include="Assets\Script\Menus\MenuController.cs" />
+    <Compile Include="Assets\Script\Menus\OptionsMenuController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/william/FIAP-CardGame/FIAP-CardGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

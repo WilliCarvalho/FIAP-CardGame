@@ -39,5 +39,8 @@ public class MenuController : MonoBehaviour
 
     }
 
-
+    public void Play()
+    {
+        Application.LoadLevel("Gameplay");
+    }
 }

@@ -7,7 +7,7 @@ public abstract class LifeBase : MonoBehaviour
 
     public int totalLife;
 
-    private int currentlife;
+    protected int currentlife;
     
     // Start is called before the first frame update
     protected void Start()
